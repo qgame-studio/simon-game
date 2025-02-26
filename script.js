@@ -32,12 +32,12 @@ class GameComponent extends HTMLElement {
             
             .simon-board {
               display: grid;
-              grid-template-columns: 120px 120px;
-              grid-template-rows: 120px 120px;
-              gap: 10px;
+              grid-template-columns: 7rem 7rem;
+              grid-template-rows: 7rem 7rem;
+              gap: 0.6rem;
               border-radius: 50%;
               background-color: #333;
-              padding: 20px;
+              padding: 1rem;
               position: relative;
             }
             
