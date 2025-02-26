@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    position: relative;
+    border: none;
+    outline: none;
+}
+
+body {
+    min-height: 100svh;
+    display: flex;
+    flex-direction: column;
+}
+
+game-component {
+    flex: 1;
+}
